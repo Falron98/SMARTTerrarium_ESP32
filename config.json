@@ -1,0 +1,30 @@
+{
+  "MQTT_ID_NAME": "ESP32",
+  "MQTT_PORT": "1883",
+  "MQTT_SERVER_IP": "192.168.247.186",
+
+  "BUTTON_ADC_PIN": "6",
+
+  "WIFI_SSID": "Redmi",
+  "WIFI_PASSWORD": "12345678",
+  "ESP_MAC_ADDRESS": "",
+
+  "LCD_WIDTH" : "320",
+  "LCD_HEIGHT" : "240",
+  "LCD_ROTATION": "0",
+
+  "LCD_CLK_PIN" : "15",
+  "LCD_MOSI_PIN" : "9",
+  "LCD_MISO_PIN" : "8",
+
+  "LCD_CS_PIN" : "11",
+  "LCD_RST_PIN" : "16",
+  "LCD_DC_PIN" : "13",
+
+  "FONT_DIR" : "fonts/Unispace12x24.c",
+  "FONT_WIDTH" : "12",
+  "FONT_HEIGHT" : "24",
+
+  "HUMIDITY_SENSOR_PIN" : "5"
+
+}

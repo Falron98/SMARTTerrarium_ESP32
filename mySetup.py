@@ -1,26 +1,29 @@
-"""ILI9341 demo (fonts)."""
 from time import sleep
 from ili9341 import Display, color565
 from machine import Pin, SPI
 from xglcd_font import XglcdFont
+from config_file import *
 
-TFT_CLK_PIN = const(15)
-TFT_MOSI_PIN = const(9)
-TFT_MISO_PIN = const(8)
 
-TFT_CS_PIN = const(11)
-TFT_RST_PIN = const(16)
-TFT_DC_PIN = const(13)
+unispace = XglcdFont(FONT_DIR, FONT_WIDTH, FONT_HEIGHT)
+
+
+def create_LCD_SPI():
+    try:
+        spi = SPI(1, baudrate=40000000, sck=Pin(TFT_CLK_PIN), mosi=Pin(TFT_MOSI_PIN))
+        display = Display(spi, dc=Pin(TFT_DC_PIN), cs=Pin(TFT_CS_PIN), rst=Pin(TFT_RST_PIN), rotation=LCD_ROTATION)
+        return display
+    except Exception as e:
+        return e
+
 
 def test():
     """Test code."""
     # Baud rate of 40000000 seems about the max
-    spi = SPI(1, baudrate=40000000, sck=Pin(TFT_CLK_PIN), mosi=Pin(TFT_MOSI_PIN))
-    display = Display(spi, dc=Pin(TFT_DC_PIN), cs=Pin(TFT_CS_PIN), rst=Pin(TFT_RST_PIN))
+    display = create_LCD_SPI()
 
     print('Loading fonts...')
     print('Loading unispace')
-    unispace = XglcdFont('fonts/Unispace12x24.c', 12, 24)
     print('Fonts loaded.')
 
     display.draw_text(0, 190, 'Test', unispace,
@@ -41,5 +44,5 @@ def test():
     sleep(9)
     display.cleanup()
 
-
-test()
+display = create_LCD_SPI()
+#display = "wot"
