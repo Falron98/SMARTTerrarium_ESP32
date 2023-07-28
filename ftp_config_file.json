@@ -1,0 +1,15 @@
+{
+  "MQTT":{
+    "MQTT_PORT": "1883",
+    "MQTT_SERVER_IP": "192.168.26.186"
+  },
+
+  "TCP":{
+    "TCP_SERVER_IP": "192.168.26.186",
+    "TCP_PORT": "5570"
+  },
+  "WIFI":{
+    "WIFI_SSID": "Redmi",
+    "WIFI_PASSWORD": "12345678"
+  }
+}

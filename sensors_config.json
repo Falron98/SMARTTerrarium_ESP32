@@ -1,0 +1,16 @@
+{    
+    "SENSORS":[
+        {
+            "pin_number" : 501,
+            "category" : "humidity",
+            "min_val" : 50,
+            "max_val" : 80
+            },
+        {
+            "pin_number" : 502,
+            "category" : "temperature",
+            "min_val" : 20,
+            "max_val" : 30
+            }
+    ]
+}
