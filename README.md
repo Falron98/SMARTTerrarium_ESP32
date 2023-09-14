@@ -36,10 +36,11 @@ Power on your ESP32 and monitor the logs to ensure it's connected to your networ
 
 Access the web interface or mobile app to control and monitor your terrarium (mobile app, web app and server can be found at https://github.com/Smart-Terrarium)
 
-# Examples of connecting components with a breadboard
+# Examples of connecting components with MCU
 ## Temperature and humidity sensor
 ![DHT22](https://github.com/Falron98/SMARTTerrarium_ESP32/assets/61655970/0fef7879-b333-4b9b-b028-c49d61431d3b)
-The DHT22 sensor is equipped with three pins: VCC, GND, and DATA. To ensure proper operation of the sensor, the following connections have been made between the DHT22 sensor and the ESP32-S2-Kaluga-1 board:
+The DHT22 sensor is equipped with three pins: VCC, GND, and DATA. 
+To ensure proper operation of the sensor, the following connections have been made between the DHT22 sensor and the ESP32-S2-Kaluga-1 board:
 
     The VCC of the DHT22 sensor has been connected to the 5V power supply of the microcontroller board.
     The GND of the DHT22 sensor has been connected to the ground of the microcontroller board.
