@@ -39,6 +39,7 @@ Access the web interface or mobile app to control and monitor your terrarium (mo
 # Examples of connecting components with MCU
 ## Temperature and humidity sensor
 ![DHT22](https://github.com/Falron98/SMARTTerrarium_ESP32/assets/61655970/0fef7879-b333-4b9b-b028-c49d61431d3b)
+
 The DHT22 sensor is equipped with three pins: VCC, GND, and DATA. 
 To ensure proper operation of the sensor, the following connections have been made between the DHT22 sensor and the ESP32-S2-Kaluga-1 board:
 
@@ -88,25 +89,25 @@ Connection of the relay to the microcontroller:
 * The IN terminal of the relay was connected to one of the microcontroller's pins responsible for controlling the relay.
 
 # Software Usage
-The ESP32-S2-Kaluga-1 microcontroller is equipped with a set of built-in buttons labeled from K1 to K6. These built-in buttons serve as the user interface, allowing direct interaction with the SmartTerrarium system. Each of these buttons has a specific function.
+The ESP32-S2-Kaluga-1 microcontroller is equipped with a set of built-in buttons labeled from **K1** to **K6**. These built-in buttons serve as the user interface, allowing direct interaction with the SmartTerrarium system. Each of these buttons has a specific function.
 
 ## Main Screen
 On the main screen, various functions can be accessed through the buttons of the ESP32-S2-Kaluga-1 microcontroller:
-* Button K5 enables navigation to a chart displaying real-time readings of two sensors, facilitating the monitoring of temperature and humidity in the terrarium.
-* Button K4 displays a graph of the latest sensor readings.
-* Button K3 provides access to the initial configuration of the board, allowing for the preliminary network setup of the board.
-* Button K2 initiates a measurement of the weight of the pressure board. This includes determining the lower and upper weight values that define the range of correct readings. With these values, the microcontroller can accurately monitor changes in the weight of the water container, enabling control of the pump.
+* **Button K5**: enables navigation to a chart displaying real-time readings of two sensors, facilitating the monitoring of temperature and humidity in the terrarium.
+* **Button K4**: displays a graph of the latest sensor readings.
+* **Button K3**: provides access to the initial configuration of the board, allowing for the preliminary network setup of the board.
+* **Button K2**: initiates a measurement of the weight of the pressure board. This includes determining the lower and upper weight values that define the range of correct readings. With these values, the microcontroller can accurately monitor changes in the weight of the water container, enabling control of the pump.
 
 ## Current Measurements Screen
 On the current measurements screen, you can change which sensors are displayed:
-* Button K1: Return to the main screen
-* Button K6: Switch to the next pair of displayed sensors.
+* **Button K1**: Return to the main screen
+* **Button K6**: Switch to the next pair of displayed sensors.
 
 ## Sensor Graph Screen
 The sensor graph screen displays the latest values read from the sensors:
-* Button K1: Return to the main screen
-* Button K5: Switch to the next sensor on the graph screen
-* Button K6: Change the type of chart on the graph screen (bar or point).
+* **Button K1**: Return to the main screen
+* **Button K5**: Switch to the next sensor on the graph screen
+* **Button K6**: Change the type of chart on the graph screen (bar or point).
 
 ## Initial Configuration Screen
 During the initial configuration, instructions regarding the necessary steps are displayed on the LCD screen. At this stage, the microcontroller launches its own access point (hotspot), allowing connection to it.
@@ -116,10 +117,10 @@ Additionally, an FTP server is activated, enabling the transfer of configuration
 While on the pressure board sensor configuration screen, in order to set the minimum weight of the water bowl, you place an empty bowl on the board and click button K6. Next, you pour the desired amount of water and click button K5. 
 The data will be saved, and using this data, the microcontroller will control the water level in the bowl.
 
-* Button K1: Return to the main screen
-* Button K4: Reset values
-* Button K5: Set max value
-* Button K6: Set min value
+* **Button K1**: Return to the main screen
+* **Button K4**: Reset values
+* **Button K5**: Set max value
+* **Button K6**: Set min value
     
 # Acknowledgments
 - [micropython-ili9341](https://github.com/rdagger/micropython-ili9341) - Drivers for LCD Screen used in project
