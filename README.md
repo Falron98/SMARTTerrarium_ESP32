@@ -5,23 +5,23 @@ It utilizes an ESP32 microcontroller, various sensors and components to create a
 
 # Features
 
-Environmental Monitoring: SmartTerrarium can measure temperature, humidity and weight of a bowl of water within the terrarium.
+**Environmental Monitoring**: SmartTerrarium can measure temperature, humidity and weight of a bowl of water within the terrarium.
 
-Automatic Control: The system can automatically adjust conditions like lighting to improve environment conditions for the terrarium's inhabitants. It can also automatically refill bowl of water after configuration.
+**Automatic Control**: The system can automatically adjust conditions like lighting to improve environment conditions for the terrarium's inhabitants. It can also automatically refill bowl of water after configuration.
 
-Data Visualization: Data collected from the sensors can be visualized and analyzed on various platforms (including ESP with LCD), allowing users to track environmental trends.
+**Data Visualization**: Data collected from the sensors can be visualized and analyzed on various platforms (including ESP with LCD), allowing users to track environmental trends.
 
-Alerts: SmartTerrarium can send alerts to users when conditions fall outside specified ranges, ensuring the welfare of the animals.
+**Alerts**: SmartTerrarium can send alerts to users when conditions fall outside specified ranges, ensuring the welfare of the animals.
 
-Remote Control: Users can control and monitor the terrarium remotely through a mobile application or web interface. Basic functions can also be controlled on MCU by buttons.
+**Remote Control**: Users can control and monitor the terrarium remotely through a mobile application or web interface. Basic functions can also be controlled on MCU by buttons.
 
 # Prerequisites
-- ESP32-S2-KALUGA-1
-- DHT22
-- FSR-406
-- JQC-3ff-S-Z
-- Dimmer module
-- mini water pump (5V)
+- **ESP32-S2-KALUGA-1**
+- **DHT22**
+- **FSR-406**
+- **JQC-3ff-S-Z**
+- **Dimmer module**
+- **Mini water pump (5V)**
   
 # Installation
 Clone this repository to your local machine:
@@ -78,9 +78,9 @@ Connection of the dimmer module to the power source and the lamp:
 
 Connection of the relay to the mini liquid pump and the adapter:
 
-    The COM terminal of the relay was connected to one of the power inputs of the mini liquid pump.
-    The NC terminal of the relay was connected to the 5V power supply of the adapter. In the idle state of the relay (without active control), the connection between COM and NC is closed.
-    The ground of the mini liquid pump was connected to the ground of the 5V adapter. This connection is meant to provide a common reference for the circuit.
+*The COM terminal of the relay was connected to one of the power inputs of the mini liquid pump.
+*The NC terminal of the relay was connected to the 5V power supply of the adapter. In the idle state of the relay (without active control), the connection between COM and NC is closed.
+*The ground of the mini liquid pump was connected to the ground of the 5V adapter. This connection is meant to provide a common reference for the circuit.
 
 Connection of the relay to the microcontroller:
 
