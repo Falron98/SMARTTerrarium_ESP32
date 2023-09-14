@@ -124,3 +124,11 @@ The data will be saved, and using this data, the microcontroller will control th
 # Acknowledgments
 - [micropython-ili9341](https://github.com/rdagger/micropython-ili9341) - Drivers for LCD Screen used in project
 - [FTP-Server-for-ESP8266-ESP32-and-PYBD](https://github.com/robert-hh/FTP-Server-for-ESP8266-ESP32-and-PYBD) - Library used for starting FTP server by ESP32 which allows first configuration to start
+
+# SMARTTerrarium project
+- [SMARTTerrarium Web app](https://github.com/s21162-pj/SmartTerrarium_WebApp/tree/master) - Author: Robert Brzoskowski
+- [SMARTTerrarium Mobile app](https://github.com/Smart-Terrarium/Terrarium-Aplikacja-Mobilna) - Author: Artur Jankowski
+- [SMARTTerrarium Server](https://github.com/Smart-Terrarium/pond) - Author: Mateusz Miękicki
+
+# License
+This project is licensed under the Open-source License.
