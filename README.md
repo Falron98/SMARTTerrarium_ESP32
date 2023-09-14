@@ -42,9 +42,9 @@ Access the web interface or mobile app to control and monitor your terrarium (mo
 The DHT22 sensor is equipped with three pins: VCC, GND, and DATA. 
 To ensure proper operation of the sensor, the following connections have been made between the DHT22 sensor and the ESP32-S2-Kaluga-1 board:
 
-*The VCC of the DHT22 sensor has been connected to the 5V power supply of the microcontroller board.
-*The GND of the DHT22 sensor has been connected to the ground of the microcontroller board.
-*The OUT of the DHT22 sensor has been connected to a selected GPIO of the microcontroller, which will be responsible for reading data from the sensor.
+* The VCC of the DHT22 sensor has been connected to the 5V power supply of the microcontroller board.
+* The GND of the DHT22 sensor has been connected to the ground of the microcontroller board.
+* The OUT of the DHT22 sensor has been connected to a selected GPIO of the microcontroller, which will be responsible for reading data from the sensor.
 
 ## Force sensor
 ![force_sensor](https://github.com/Falron98/SMARTTerrarium_ESP32/assets/61655970/91f3f638-8e5e-4571-9198-61b9b5a2bd04)
