@@ -5,15 +5,15 @@ It utilizes an ESP32 microcontroller, various sensors and components to create a
 
 # Features
 
-    Environmental Monitoring: SmartTerrarium can measure temperature, humidity and weight of a bowl of water within the terrarium.
+Environmental Monitoring: SmartTerrarium can measure temperature, humidity and weight of a bowl of water within the terrarium.
 
-    Automatic Control: The system can automatically adjust conditions like lighting to improve environment conditions for the terrarium's inhabitants. It can also automatically refill bowl of water after configuration.
+Automatic Control: The system can automatically adjust conditions like lighting to improve environment conditions for the terrarium's inhabitants. It can also automatically refill bowl of water after configuration.
 
-    Data Visualization: Data collected from the sensors can be visualized and analyzed on various platforms (including ESP with LCD), allowing users to track environmental trends.
+Data Visualization: Data collected from the sensors can be visualized and analyzed on various platforms (including ESP with LCD), allowing users to track environmental trends.
 
-    Alerts: SmartTerrarium can send alerts to users when conditions fall outside specified ranges, ensuring the welfare of the animals.
+Alerts: SmartTerrarium can send alerts to users when conditions fall outside specified ranges, ensuring the welfare of the animals.
 
-    Remote Control: Users can control and monitor the terrarium remotely through a mobile application or web interface. Basic functions can also be controlled on MCU by buttons.
+Remote Control: Users can control and monitor the terrarium remotely through a mobile application or web interface. Basic functions can also be controlled on MCU by buttons.
 
 # Prerequisites
 - ESP32-S2-KALUGA-1
