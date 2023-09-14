@@ -132,4 +132,4 @@ The data will be saved, and using this data, the microcontroller will control th
 - [SMARTTerrarium Server](https://github.com/Smart-Terrarium/pond) - Author: Mateusz Miękicki
 
 # License
-This project is licensed under the Open-source License.
+This project is licensed under the MIT License.
